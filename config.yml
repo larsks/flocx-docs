@@ -1,0 +1,20 @@
+---
+baseURL: "/"
+languageCode: "en-us"
+title: "FLOCX"
+theme: ananke
+
+Menus:
+  main:
+    - Name: API Documentation
+      URL: /api/
+
+params:
+  description: "First Layer of the Open Cloud eXchange"
+  github: https://github.com/cci-moc/flocx
+  featured_image: "/images/flocx_logo.png"
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
